@@ -1,2 +1,392 @@
-# Lucid-Explorer
-✨ Lucid Explorer — where file management meets local AI, bringing chat, vision, and image generation directly to your desktop.
+# Lucid Explorer
+
+<p align="center">
+  <img src="ai.png" width="128" alt="Lucid Explorer Logo">
+</p>
+
+<h1 align="center">Lucid Explorer</h1>
+
+<p align="center">
+  A modern Windows file explorer powered by local AI.
+</p>
+
+<p align="center">
+  Finder-inspired Design • Local LLMs • Vision AI • Image Generation • Privacy First
+</p>
+
+<p align="center">
+  Developed by <b>JOD Studios</b>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Flutter-3.9+-02569B?logo=flutter">
+  <img src="https://img.shields.io/badge/Dart-3.9+-0175C2?logo=dart">
+  <img src="https://img.shields.io/badge/Platform-Windows-0078D4?logo=windows">
+  <img src="https://img.shields.io/badge/License-MIT-green">
+  <img src="https://img.shields.io/badge/Version-2.0.0-blue">
+</p>
+
+---
+
+## Overview
+
+Lucid Explorer is a next-generation Windows file manager designed by JOD Studios.
+
+Inspired by macOS Finder and modern desktop environments, Lucid Explorer combines fluid file navigation with powerful on-device artificial intelligence. Users can browse files, analyze documents, chat with local AI models, generate images, and interact with their workspace without relying on cloud services.
+
+The goal is simple:
+
+**Create the most beautiful and intelligent file explorer available for Windows.**
+
+---
+
+## Why Lucid Explorer?
+
+Most file managers focus solely on browsing files.
+
+Lucid Explorer extends the desktop experience by combining:
+
+* Modern Finder-inspired interface
+* Powerful local AI assistant
+* Privacy-first architecture
+* GPU-accelerated AI inference
+* Intelligent document understanding
+* Image generation capabilities
+* Workspace-aware conversations
+
+Everything is designed to feel fast, fluid, and intuitive.
+
+---
+
+## Features
+
+### File Explorer
+
+* Grid, Tile, and Details views
+* Smooth animations and transitions
+* Smart sidebar with:
+
+  * Folder tree
+  * Favorites
+  * Recent locations
+  * Color tags
+  * Drive list
+* Full file operations:
+
+  * Create
+  * Rename
+  * Delete
+  * Copy
+  * Cut
+  * Paste
+* Finder-style file naming
+* Properties dialog
+* "This PC" overview
+* Drive usage indicators
+* Custom frameless window
+* Rounded corners
+* Gradient title bar
+
+### Keyboard Shortcuts
+
+| Shortcut         | Action      |
+| ---------------- | ----------- |
+| Backspace        | Navigate Up |
+| F5               | Refresh     |
+| F2               | Rename      |
+| Delete           | Delete      |
+| Ctrl + A         | Select All  |
+| Ctrl + C         | Copy        |
+| Ctrl + X         | Cut         |
+| Ctrl + V         | Paste       |
+| Ctrl + Shift + N | New Folder  |
+| Alt + Enter      | Properties  |
+
+---
+
+## AI Assistant
+
+Lucid AI is built directly into the explorer.
+
+### Chat Mode
+
+* Local LLM conversations
+* Streaming responses
+* Markdown rendering
+* Workspace-aware context
+
+Supported models:
+
+* Qwen2.5 1.5B
+* Qwen2.5 3B
+* Qwen2.5 7B
+
+### Vision Mode
+
+Analyze:
+
+* Images
+* PDFs
+* Documents
+* Screenshots
+
+Supported models:
+
+* Qwen2.5-VL
+* MiniCPM-V
+
+### Image Generation
+
+Generate images directly inside the application using:
+
+* FLUX.1 Dev models
+* Local Stable Diffusion runtime
+
+### Code Mode
+
+* Programming assistance
+* Code explanation
+* Debugging help
+* Code generation
+
+---
+
+## File Ingestion Pipeline
+
+Lucid Explorer includes an advanced document processing system.
+
+### Supported Formats
+
+* PDF
+* DOCX
+* XLSX
+* PPTX
+* TXT
+* Markdown
+* Images
+
+### Processing Features
+
+* PDF text extraction
+* OCR fallback for scanned documents
+* Structure-aware chunking
+* Image understanding
+* Context preparation for AI models
+
+---
+
+## GPU Support
+
+Automatic hardware detection for:
+
+### NVIDIA
+
+* CUDA acceleration
+* Dynamic layer offloading
+
+### AMD
+
+* Vulkan acceleration
+
+### Intel
+
+* Integrated GPU support
+
+### CPU Fallback
+
+* Multi-threaded inference
+* Automatic optimization
+
+---
+
+## Screenshots
+
+### Explorer
+
+![Explorer](screenshots/explorer.png)
+
+### AI Assistant
+
+![AI Assistant](screenshots/assistant.png)
+
+### Vision Analysis
+
+![Vision](screenshots/vision.png)
+
+### Image Generation
+
+![Image Generation](screenshots/imagegen.png)
+
+---
+
+## System Requirements
+
+### Minimum
+
+| Component | Requirement          |
+| --------- | -------------------- |
+| OS        | Windows 10/11 64-bit |
+| RAM       | 4 GB                 |
+| VRAM      | 2 GB                 |
+| Storage   | 2 GB                 |
+
+### Recommended
+
+| Component | Requirement |
+| --------- | ----------- |
+| RAM       | 8 GB+       |
+| VRAM      | 4 GB+       |
+| SSD       | Recommended |
+
+---
+
+## Installation
+
+### Download
+
+Download the latest release from the Releases page.
+
+### Build From Source
+
+Clone the repository:
+
+```bash
+git clone https://github.com/SayantanJ/LucidExplorer.git
+cd LucidExplorer
+```
+
+Install dependencies:
+
+```bash
+flutter pub get
+```
+
+Build:
+
+```bash
+flutter build windows --release
+```
+
+Copy required runtime files:
+
+```text
+ai.png
+llama.cpp/
+stable-diffusion.cpp/
+```
+
+into:
+
+```text
+build/windows/x64/runner/Release/
+```
+
+---
+
+## Project Structure
+
+```text
+LucidExplorer/
+│
+├── lib/
+│   ├── main.dart
+│   │
+│   ├── core/
+│   │
+│   ├── features/
+│   │   ├── ai/
+│   │   └── explorer/
+│   │
+│   ├── models/
+│   ├── services/
+│   ├── shared/
+│   └── theme/
+│
+├── windows/
+├── llama.cpp/
+├── stable-diffusion.cpp/
+└── assets/
+```
+
+---
+
+## Technology Stack
+
+| Category          | Technology             |
+| ----------------- | ---------------------- |
+| Framework         | Flutter 3.9+           |
+| Language          | Dart                   |
+| State Management  | Riverpod               |
+| Routing           | go_router              |
+| Window Management | window_manager         |
+| AI Runtime        | llama.cpp              |
+| Image Generation  | stable-diffusion.cpp   |
+| Native APIs       | Win32 FFI              |
+| PDF Processing    | syncfusion_flutter_pdf |
+| UI Framework      | Material 3             |
+| Typography        | Google Fonts (Poppins) |
+
+---
+
+## Roadmap
+
+### Version 2.x
+
+* [x] Modern file explorer
+* [x] Local AI assistant
+* [x] Vision support
+* [x] Image generation
+* [x] GPU acceleration
+* [ ] Advanced search indexing
+* [ ] Tabbed browsing
+* [ ] Plugin architecture
+* [ ] Workspace memory
+* [ ] AI-powered file organization
+
+### Future
+
+* [ ] Linux support
+* [ ] macOS support
+* [ ] Cross-device sync
+* [ ] Team collaboration tools
+
+---
+
+## Privacy
+
+Lucid Explorer is designed with privacy in mind.
+
+* Local AI execution
+* No mandatory cloud services
+* User-controlled models
+* User-controlled data
+* Offline-capable workflows
+
+Your files remain on your machine.
+
+---
+
+## License
+
+Licensed under the MIT License.
+
+See the LICENSE file for details.
+
+---
+
+## About JOD Studios
+
+JOD Studios is focused on creating modern desktop software, intelligent productivity tools, and AI-powered experiences.
+
+### Lead Developer
+
+**Sayantan Jana**
+
+GitHub:
+https://github.com/SayantanJ
+
+---
+
+<p align="center">
+  Built with Flutter ❤️ by JOD Studios
+</p>
