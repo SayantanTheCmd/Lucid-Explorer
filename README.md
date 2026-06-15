@@ -19,7 +19,7 @@
 
 ## Overview
 
-Lucid Explorer is a next-generation Windows file manager designed by JodStudios.
+Lucid Explorer is a next-generation Windows file manager designed by JodStudiOS.
 
 Inspired by macOS Finder and modern desktop environments, Lucid Explorer combines fluid file navigation with powerful on-device artificial intelligence. Users can browse files, analyze documents, chat with local AI models, generate images, and interact with their workspace without relying on cloud services.
 
