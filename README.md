@@ -1,5 +1,3 @@
-# Lucid Explorer
-
 <h1 align="center">Lucid Explorer</h1>
 
 <p align="center">
