@@ -199,26 +199,6 @@ Automatic hardware detection for:
 
 ---
 
-## Screenshots
-
-### Explorer
-
-![Explorer](screenshots/explorer.png)
-
-### AI Assistant
-
-![AI Assistant](screenshots/assistant.png)
-
-### Vision Analysis
-
-![Vision](screenshots/vision.png)
-
-### Image Generation
-
-![Image Generation](screenshots/imagegen.png)
-
----
-
 ## System Requirements
 
 ### Minimum
