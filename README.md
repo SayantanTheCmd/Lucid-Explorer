@@ -15,22 +15,15 @@
 </p>
 
 <p align="center">
-  Developed by <b>JOD Studios</b>
+  Developed by <b>JodStudios</b>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Flutter-3.9+-02569B?logo=flutter">
-  <img src="https://img.shields.io/badge/Dart-3.9+-0175C2?logo=dart">
-  <img src="https://img.shields.io/badge/Platform-Windows-0078D4?logo=windows">
-  <img src="https://img.shields.io/badge/License-MIT-green">
-  <img src="https://img.shields.io/badge/Version-2.0.0-blue">
-</p>
 
 ---
 
 ## Overview
 
-Lucid Explorer is a next-generation Windows file manager designed by JOD Studios.
+Lucid Explorer is a next-generation Windows file manager designed by JodStudios.
 
 Inspired by macOS Finder and modern desktop environments, Lucid Explorer combines fluid file navigation with powerful on-device artificial intelligence. Users can browse files, analyze documents, chat with local AI models, generate images, and interact with their workspace without relying on cloud services.
 
@@ -308,30 +301,6 @@ LucidExplorer/
 
 ---
 
-## Roadmap
-
-### Version 2.x
-
-* [x] Modern file explorer
-* [x] Local AI assistant
-* [x] Vision support
-* [x] Image generation
-* [x] GPU acceleration
-* [ ] Advanced search indexing
-* [ ] Tabbed browsing
-* [ ] Plugin architecture
-* [ ] Workspace memory
-* [ ] AI-powered file organization
-
-### Future
-
-* [ ] Linux support
-* [ ] macOS support
-* [ ] Cross-device sync
-* [ ] Team collaboration tools
-
----
-
 ## Privacy
 
 Lucid Explorer is designed with privacy in mind.
@@ -348,22 +317,15 @@ Your files remain on your machine.
 
 ## License
 
-Licensed under the MIT License.
+Licensed under a custom license created and validated by SayantanTheCmd
 
 See the LICENSE file for details.
 
 ---
-
-## About JOD Studios
-
-JOD Studios is focused on creating modern desktop software, intelligent productivity tools, and AI-powered experiences.
-
-### Lead Developer
+##Developed By 
 
 **Sayantan Jana**
 
-GitHub:
-https://github.com/SayantanJ
 
 ---
 
