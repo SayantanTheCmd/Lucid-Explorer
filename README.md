@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  Developed by <b>JodStudios</b>
+  Developed by <b>JodStudiOS</b>
 </p>
 
 
