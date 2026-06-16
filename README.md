@@ -122,14 +122,14 @@ Supported models:
 * Qwen2.5-VL
 * MiniCPM-V
 
-### Image Generation
+### Image Generation(Unstable)
 
 Generate images directly inside the application using:
 
 * FLUX.1 Dev models
 * Local Stable Diffusion runtime
 
-### Code Mode
+### Code Mode(Coming Soon)
 
 * Programming assistance
 * Code explanation
@@ -183,6 +183,13 @@ Automatic hardware detection for:
 
 * Multi-threaded inference
 * Automatic optimization
+
+---
+## ScreenShots
+<img width="1283" height="809" alt="Lucid2" src="https://github.com/user-attachments/assets/7f3a9788-8bb3-4b26-bd94-ec54722b65c0" />
+<img width="1283" height="805" alt="Lucid1" src="https://github.com/user-attachments/assets/4f0b6aa0-80e9-45c4-8966-8a8914a35009" />
+<img width="1284" height="813" alt="Lucid3" src="https://github.com/user-attachments/assets/690315d9-b7bf-40dc-bec3-f45a24a3e374" />
+<img width="1600" height="900" alt="Lucid4" src="https://github.com/user-attachments/assets/afe33fe4-66d8-44dd-94cb-3884a6341da1" />
 
 ---
 
